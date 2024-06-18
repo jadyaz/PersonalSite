@@ -125,8 +125,9 @@ body, html {
 }
 
 .pdf-container {
+    
     height: 70vh;
-    width: 100vw;
+    width: 70vw;
 }
 
 /* Media Queries for smaller screens */

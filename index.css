@@ -3,6 +3,13 @@ body {
     color: white !important; 
 }
 
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+}
+
 .nav-link .icon {
     width: 1em; /* Adjusted to em */
     height: 1em; /* Adjusted to em */
@@ -117,6 +124,11 @@ body {
     text-decoration: none; 
 }
 
+.pdf-container {
+    height: 100vh;
+    width: 100vw;
+}
+
 /* Media Queries for smaller screens */
 @media (max-width: 768px) {
     .nav-link .icon {
@@ -145,3 +157,5 @@ body {
         margin-left: 2em;
     }
 }
+
+

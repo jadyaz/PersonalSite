@@ -106,17 +106,20 @@ body, html {
     justify-content: space-between;
     padding: 1vh 0;
     border-bottom: 0.1em solid #ccc; 
+    width: 100%;
 }
 
 .blog-entry .article-name {
     font-weight: bold;
     text-decoration: none;
     color: #888;
+    flex-grow: 1;
+
 }
 
 .blog-entry .date {
     color: #13911b;
-    margin-left: 45vw; 
+    margin-left: auto; 
 }
 
 .blog-entry .article-name:hover {
